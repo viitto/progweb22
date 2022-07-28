@@ -12,5 +12,8 @@ namespace WebApp.context
         public EFContext() : base("Asp_Net_MVC_CS") { }
         public DbSet<Categoria> Categorias { get; set; }
         public DbSet<Fabricante> Fabricantes { get; set; }
+        public DbSet<Fabricante> Ano { get; set; }
+        public DbSet<Fabricante> Modelo { get; set; }
+        public DbSet<Fabricante> Valor { get; set; }
     }
 }
